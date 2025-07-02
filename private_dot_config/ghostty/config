@@ -67,3 +67,4 @@ keybind = ctrl+shift+left_bracket=goto_split:previous
 keybind = ctrl+shift+right_bracket=goto_split:next
 keybind = ctrl+shift+s=new_split:auto
 
+gtk-titlebar = false
