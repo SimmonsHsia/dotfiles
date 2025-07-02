@@ -8,7 +8,7 @@ My dotfiles managed by [chezmoi](https://www.chezmoi.io/)!
 ### Step by step
 
 1. Initialize chezmoi with this dotfiles repo:
-`chezmoi init @github.com:SimmonsHsia/dotfiles.git`
+`chezmoi init https://github.com/SimmonsHsia/dotfiles.git`
 
 2. Check what changes that chezmoi will make:
 `chezmoi diff`
