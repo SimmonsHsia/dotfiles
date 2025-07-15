@@ -63,8 +63,21 @@ background-blur = true
 
 
 keybind = ctrl+shift+w=close_surface
-keybind = ctrl+shift+left_bracket=goto_split:previous
-keybind = ctrl+shift+right_bracket=goto_split:next
+
+keybind = ctrl+shift+left_bracket=previous_tab
+keybind = ctrl+shift+right_bracket=next_tab
+
+keybind = ctrl+shift+up=goto_split:up
+keybind = ctrl+shift+down=goto_split:down
+keybind = ctrl+shift+left=goto_split:left
+keybind = ctrl+shift+right=goto_split:right
 keybind = ctrl+shift+s=new_split:auto
+keybind = ctrl+shift+-=new_split:down
+keybind = ctrl+shift+\=new_split:right
+
+keybind = page_up=scroll_page_up
+keybind = page_down=scroll_page_down
+keybind = shift+page_up=scroll_to_top
+keybind = shift+page_down=scroll_to_bottom
 
 gtk-titlebar = false
